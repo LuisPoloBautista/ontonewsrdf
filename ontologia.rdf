@@ -39,7 +39,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/MON/action.owl#Agent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:comment xml:lang="es">El diagrama indica rdfs:comment con valores xsd:string.</rdfs:comment>
+
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/MON/action.owl#hasParticipant">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -60,7 +60,7 @@
     <rdfs:subClassOf rdf:nodeID="Ne07f8190fb4e40b080cd2bb89d6bc15b"/>
     <rdfs:subClassOf rdf:nodeID="N56288ae824164d60a5a6f749c0dab8e5"/>
     <rdfs:subClassOf rdf:nodeID="N6d9eda8ac95d422485c440fd1c9c4466"/>
-    <rdfs:comment xml:lang="es">El diagrama indica rdfs:comment con valores xsd:string e incluye skos:broader, skos:exactMatch e iptc:MemberOfScheme sin destino.</rdfs:comment>
+
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
