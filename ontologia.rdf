@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xml:base="http://example.org/def/base#"
+   xml:base="https://w3id.org/ontonewsrdf#"
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -34,7 +34,7 @@
     <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#endDate"/>
     <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/other#belongsTo">
+  <rdf:Description rdf:about="https://w3id.org/ontonewsrdf#belongsTo">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/MON/action.owl#Agent">
@@ -44,7 +44,7 @@
   <rdf:Description rdf:about="https://w3id.org/MON/action.owl#hasParticipant">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/other#Event">
+  <rdf:Description rdf:about="https://w3id.org/ontonewsrdf#Event">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:nodeID="Nab66bdd0fb034d8c9cde0f98a27bc9c1"/>
     <rdfs:subClassOf rdf:nodeID="N0d7d9a52ea724584a2e19c122323044b"/>
@@ -77,27 +77,27 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://dbpedia.org/ontology/NaturalEvent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/other#Event"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/ontonewsrdf#Event"/>
     <rdfs:subClassOf rdf:nodeID="N45b0a88750d247668d9b4791f6a23151"/>
     <rdfs:subClassOf rdf:nodeID="N1df1acf2ddb644f2b58e93b98ac0a0b0"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N0c1f072c252b4af18d11fa3a458e16ac">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://example.org/other#describes"/>
-    <owl:allValuesFrom rdf:resource="http://example.org/other#Event"/>
+    <owl:onProperty rdf:resource="https://w3id.org/ontonewsrdf#describes"/>
+    <owl:allValuesFrom rdf:resource="https://w3id.org/ontonewsrdf#Event"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/example#">
+  <rdf:Description rdf:about="https://w3id.org/ontonewsrdf">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <dcterms:title xml:lang="en">The example ontology</dcterms:title>
-    <dcterms:description xml:lang="en">Brief description of your ontology.</dcterms:description>
+    <dcterms:title xml:lang="en">Ontology for Events and News</dcterms:title>
+    <dcterms:description xml:lang="en">Ontology describing events, places, infrastructure, news articles, and media topics.</dcterms:description>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-20</dcterms:created>
     <dcterms:creator>Luis Roberto Polo-Bautista</dcterms:creator>
     <dcterms:contributor>Luis M. Vilches-Blázquez</dcterms:contributor>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <vann:preferredNamespaceUri rdf:resource="https://w3id.org/example#"/>
-    <vann:preferredNamespacePrefix>choosenprefix</vann:preferredNamespacePrefix>
-    <owl:versionIRI rdf:resource="https://w3id.org/example/1.0.1"/>
-    <owl:versionInfo>0.0.1</owl:versionInfo>
+    <vann:preferredNamespaceUri rdf:resource="https://w3id.org/ontonewsrdf#"/>
+    <vann:preferredNamespacePrefix>ontonewsrdf</vann:preferredNamespacePrefix>
+    <owl:versionIRI rdf:resource="https://w3id.org/ontonewsrdf/1.0.1"/>
+    <owl:versionInfo>1.0.1</owl:versionInfo>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N8bd322c8e9e548d9a83cf37a5eba0b46">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
@@ -145,7 +145,7 @@
   </rdf:Description>
   <rdf:Description rdf:nodeID="N6d9eda8ac95d422485c440fd1c9c4466">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://example.org/other#hasCategory"/>
+    <owl:onProperty rdf:resource="https://w3id.org/ontonewsrdf#hasCategory"/>
     <owl:allValuesFrom rdf:resource="https://schema.org/NewsArticle"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://dbpedia.org/ontology/endDate">
@@ -159,7 +159,7 @@
   </rdf:Description>
   <rdf:Description rdf:nodeID="N0031414c6bfd468e9a93e6d4a819c3b0">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://example.org/other#MagnitudeScale"/>
+    <owl:onProperty rdf:resource="https://w3id.org/ontonewsrdf#MagnitudeScale"/>
     <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://schema.org/Place">
@@ -192,7 +192,7 @@
     <owl:onProperty rdf:resource="https://dbpedia.org/ontology/startDate"/>
     <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/other#MagnitudeScale">
+  <rdf:Description rdf:about="https://w3id.org/ontonewsrdf#MagnitudeScale">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N45b0a88750d247668d9b4791f6a23151">
@@ -207,7 +207,7 @@
     <rdfs:subClassOf rdf:nodeID="Nf42630c99b564b3d8f5f3c843d49ec15"/>
     <rdfs:comment xml:lang="es">El diagrama incluye la anotación rdfs:label sin tipo indicado.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/other#describes">
+  <rdf:Description rdf:about="https://w3id.org/ontonewsrdf#describes">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
@@ -247,7 +247,7 @@
   </rdf:Description>
   <rdf:Description rdf:nodeID="Na967d4287f754b64a59a27ccc84a149e">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://example.org/other#belongsTo"/>
+    <owl:onProperty rdf:resource="https://w3id.org/ontonewsrdf#belongsTo"/>
     <owl:allValuesFrom rdf:resource="https://dbpedia.org/ontology/Country"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/available">
@@ -259,12 +259,12 @@
   <rdf:Description rdf:about="https://schema.org/address">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/other#Building">
+  <rdf:Description rdf:about="https://w3id.org/ontonewsrdf#Building">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N8559ca6ccc38457d9ffb5462635892f6">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://example.org/other#affects"/>
+    <owl:onProperty rdf:resource="https://w3id.org/ontonewsrdf#affects"/>
     <owl:allValuesFrom rdf:nodeID="N05ef8fc73cf045eb91e70bd534c6b4c3"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
@@ -279,7 +279,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N23938cd177c14192b1d44d2d902292ba">
-    <rdf:first rdf:resource="http://example.org/other#Building"/>
+    <rdf:first rdf:resource="https://w3id.org/ontonewsrdf#Building"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nf42630c99b564b3d8f5f3c843d49ec15">
@@ -305,7 +305,7 @@
   <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/other#hasCategory">
+  <rdf:Description rdf:about="https://w3id.org/ontonewsrdf#hasCategory">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N67a69357b2cd4c6eab4d6c4be19de50f">
@@ -315,7 +315,7 @@
   <rdf:Description rdf:about="https://ontologies.newsadoo.com/tag-cat#count90d">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/other#affects">
+  <rdf:Description rdf:about="https://w3id.org/ontonewsrdf#affects">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
